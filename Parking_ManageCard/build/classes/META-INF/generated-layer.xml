@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="org_bjpu_card">
+                <file name="CardM" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--org.bjpu.card.CardMTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//org.bjpu.card//CardM//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="org">
+                <folder name="bjpu">
+                    <folder name="card">
+                        <file name="CardMTopComponent">
+                            <!--org.bjpu.card.CardMTopComponent-->
+                            <attr name="settings.providerPath" stringvalue="xml/lookups//org_bjpu_card/CardM.instance"/>
+                        </file>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="org_bjpu_card">
+                <file name="CardM.instance">
+                    <!--org.bjpu.card.CardMTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="org.bjpu.card.CardMTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="org.bjpu.card.CardMTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Window">
+            <file name="org-bjpu-card-CardMTopComponent.shadow">
+                <!--org.bjpu.card.CardMTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/org-bjpu-card-CardMTopComponent.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="CardMTopComponent.settings">
+                <!--org.bjpu.card.CardMTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="org.bjpu.card.CardMTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="output">
+                <file name="CardMTopComponent.wstcref">
+                    <!--org.bjpu.card.CardMTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="CardMTopComponent"/>
+  <state opened="true"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="org-bjpu-card-CardMTopComponent.instance">
+                <!--org.bjpu.card.CardMTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="org.bjpu.card.CardMTopComponent"/>
+                <attr name="preferredID" stringvalue="CardMTopComponent"/>
+                <attr name="displayName" stringvalue="Card Management"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>

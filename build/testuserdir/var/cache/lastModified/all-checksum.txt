@@ -1,0 +1,9 @@
+C:\Program Files\NetBeans 8.1\platform=1463608380352
+cluster.C:/Users/operator/Documents/NetBeansProjects/Parking_CoreApp/build/cluster=1464082227103
+cluster.C:/Program Files/NetBeans 8.1/platform=1463608380352
+user=1464082227103
+crc=7
+locale=en_US
+branding=parking_coreapp
+java.version=1.8.0_91
+java.vm.version=25.91-b14

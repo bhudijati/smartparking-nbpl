@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="org_bjpu_gateout">
+                <file name="GateOut" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--org.bjpu.gateout.GateOutTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//org.bjpu.gateout//GateOut//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="org">
+                <folder name="bjpu">
+                    <folder name="gateout">
+                        <file name="GateOutTopComponent">
+                            <!--org.bjpu.gateout.GateOutTopComponent-->
+                            <attr name="settings.providerPath" stringvalue="xml/lookups//org_bjpu_gateout/GateOut.instance"/>
+                        </file>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="org_bjpu_gateout">
+                <file name="GateOut.instance">
+                    <!--org.bjpu.gateout.GateOutTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="org.bjpu.gateout.GateOutTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="org.bjpu.gateout.GateOutTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Window">
+            <file name="org-bjpu-gateout-GateOutTopComponent.shadow">
+                <!--org.bjpu.gateout.GateOutTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/org-bjpu-gateout-GateOutTopComponent.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="GateOutTopComponent.settings">
+                <!--org.bjpu.gateout.GateOutTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="org.bjpu.gateout.GateOutTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="editor">
+                <file name="GateOutTopComponent.wstcref">
+                    <!--org.bjpu.gateout.GateOutTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="GateOutTopComponent"/>
+  <state opened="true"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="org-bjpu-gateout-GateOutTopComponent.instance">
+                <!--org.bjpu.gateout.GateOutTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="org.bjpu.gateout.GateOutTopComponent"/>
+                <attr name="preferredID" stringvalue="GateOutTopComponent"/>
+                <attr name="displayName" stringvalue="Parking Out"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>

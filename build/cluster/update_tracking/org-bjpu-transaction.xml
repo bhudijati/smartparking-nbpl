@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.bjpu.transaction">
+    <module_version install_time="1464082226978" last="true" origin="installer" specification_version="1.0">
+        <file crc="166244553" name="config/Modules/org-bjpu-transaction.xml"/>
+        <file crc="3442706486" name="modules/org-bjpu-transaction.jar"/>
+    </module_version>
+</module>
