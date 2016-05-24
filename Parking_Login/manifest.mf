@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+AutoUpdate-Show-In-Client: true
+OpenIDE-Module: org.bjpu.login
+OpenIDE-Module-Install: org/bjpu/login/Installer.class
+OpenIDE-Module-Localizing-Bundle: org/bjpu/login/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

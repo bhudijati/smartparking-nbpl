@@ -1,0 +1,7 @@
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at org.bjpu.gatein.SockClientThread.readInputStream(SockClientThread.java:98)
+	at org.bjpu.gatein.SockClientThread.run(SockClientThread.java:55)
