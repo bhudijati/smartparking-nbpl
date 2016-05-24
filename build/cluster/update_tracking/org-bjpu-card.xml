@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="org.bjpu.card">
-    <module_version install_time="1464082225122" last="true" origin="installer" specification_version="1.0">
+    <module_version install_time="1464082953300" last="true" origin="installer" specification_version="1.0">
         <file crc="130597862" name="config/Modules/org-bjpu-card.xml"/>
-        <file crc="1466566240" name="modules/org-bjpu-card.jar"/>
+        <file crc="3707713057" name="modules/org-bjpu-card.jar"/>
     </module_version>
 </module>
